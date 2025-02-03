@@ -6,6 +6,10 @@ This repository provides a research toolkit for exploring Overlap Density — a 
 - Gain insights into how Overlap Density promotes stronger generalization from weaker models.
 - Reproduce or build upon experimental results related to Overlap Density.
 
+You can read my analysis on the Overlap Density from the research paper on LessWrong: **[The Overlap Paradigm: Rethinking Data's Role in Weak-to-Strong Generalization (W2SG)](https://www.lesswrong.com/posts/NDRfpD3q4EJ46z54Y/the-overlap-paradigm-rethinking-data-s-role-in-weak-to)**
+
+This post summarizes my capstone project for the AI Alignment course by BlueDot Impact. You can learn more about their amazing courses [here](https://bluedot.org) and consider applying!
+
 -------------------------------------------------------------------------------
 ## Table of Contents
 
@@ -56,6 +60,9 @@ The notebook ([overlap_density.ipynb](notebooks/overlap_density.ipynb)) walks th
 
 -------------------------------------------------------------------------------
 ## Installation
+
+For my experiments, I've used RunPod.io, more specifically — a docker image via their platform: runpod/pytorch:2.4.0-py3.11-cuda12.4.1-devel-ubuntu22.04.
+Nevertheless, the code should work on any system with compatible GPU, updated drivers and required libraries installed.
 
 Below is a recommended setup process:
 
